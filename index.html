@@ -62,8 +62,23 @@ ul li{
      transition:0.6s ease;
      background-color:darkgray;
 } 
-      
 
+  
+  
+
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+  head{
+    font-size: 80px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  head{
+    font-size: 30px;
+  }
+}
   
 
  
@@ -104,7 +119,7 @@ ul li{
      <span class="head" style="font-family :akronim;" >
          ART GALLERY
      </span>
-     <span class="head" style="font-size:40px;">
+     <span class="smalltext" style="font-size:40px;">
          15 Adr Street, 5015
      </span>
  </header>
