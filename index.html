@@ -27,7 +27,7 @@ body, html {
     
     text-align:center ;
     font-size :100px;
-    position :relative ;
+    position :fixed ;
     top:50%;
     left :50%;
 }
@@ -243,7 +243,7 @@ body, html {
 
         <span class="smalltext" style="font-size:20px;">
 
-       Address:  15 Adr Street, 5015
+       Address: 15th Street,5015
 
      </span>
 
@@ -252,11 +252,8 @@ body, html {
      <p class="head" style="font-family :Akronim;" >
          ART GALLERY</p>
      <br>
-     
- </header>
- <div class="tab">
-
-  <button class="tablinks" onclick="openArtwork(event, 'London')">London</button>
+      <div class="tab">
+       <button class="tablinks" onclick="openArtwork(event, 'London')">London</button>
 
   <button class="tablinks" onclick="openArtwork(event, 'Paris')">Paris</button>
 
@@ -287,6 +284,9 @@ body, html {
   <p>Tokyo is the capital of Japan.</p>
 
 </div>
+ </header>
+
+  
     <script>
     function openArtwork(evt, artworkName) {
 
